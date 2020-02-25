@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //create a variable to store the prompt command
+        var name = prompt("Write your name: ");
+        
+        //check if the first letter is lower case, if yes, then change it to lower case
+
+        if(name[0] != name.toUpperCase() && name != name.toUpperCase())
+        {
+            name = name.toLowerCase();
+            alert("Welcome, "+name[0].toUpperCase() + name.slice(1,name.length));
+        }
+    </script>
+</body>
+</html>
+var tweet = prompt("Write something here: ");
+var tweetCount = tweet.length;
+alert("You have written "+ tweetCount + "characters, you have " + (140-tweetCount) + " characters remaining");

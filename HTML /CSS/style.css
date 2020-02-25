@@ -1,19 +1,57 @@
-.logo{
-    width: 10%;
-    
+body{
+    font-family: 'Montserrat';
 }
-.menu{
-display: flex;
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+#title-description{
+    font-size: 3.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar{
+
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 5% 3% 0;
+}
+
+/* Tilting image */
+.iphone-img{
+    width: 60%;
+    height: 100%;
+    /* -ms-transform: rotate(25deg); */
+    transform: rotate(25deg);
+}
+/* Features */
+.wrapper{
+    display: flex;
+}
+.individual-feature{
 flex-direction: row;
 }
-.navbar-custom, #title{
-    background-color: #00ACC1;
-    
-}
-.navitem-custom{
-    border: 1px solid rgb(64, 101, 105);
-    border-radius: 0.2rem;
-    padding: 0px 1rem;
-    background-color: rgb(77, 132, 139);
-    margin: 0 0.4rem; 
-}
+
